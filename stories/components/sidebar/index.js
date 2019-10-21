@@ -8,7 +8,7 @@ import {
   Header2,
   HeaderOnePlugin,
   HeaderTwoPlugin
-} from "@canner/slate-icon-header";
+} from "@tracoco/slate-icon-header";
 import { OlList, UlList, ListPlugin } from "slateIcons/list";
 import { ParagraphPlugin } from "slateIcons/shared";
 import sidebar from "packages/components/sidebar/src";

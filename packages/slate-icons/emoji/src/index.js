@@ -2,9 +2,9 @@
 import * as React from "react";
 import type { IconProps } from "shared/src/types";
 import EmojiMartPicker from "emoji-mart-picker";
-import ToolbarIcon from "@canner/slate-icon-shared";
-import { EMOJI } from "@canner/slate-constant/lib/inlines";
-import emojiNode from "@canner/slate-editor-renderer/lib/emojiNode";
+import ToolbarIcon from "@tracoco/slate-icon-shared";
+import { EMOJI } from "@tracoco/slate-constant/lib/inlines";
+import emojiNode from "@tracoco/slate-editor-renderer/lib/emojiNode";
 
 export const EmojiPlugin = opt => {
   const options = Object.assign(

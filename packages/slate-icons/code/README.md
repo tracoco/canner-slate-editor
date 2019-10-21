@@ -1,21 +1,21 @@
-# @canner/slate-icon-code
+# @tracoco/slate-icon-code
 
 [![npm version](https://badge.fury.io/js/%40canner%2Fslate-icon-code.svg)](https://badge.fury.io/js/%40canner%2Fslate-icon-code)
 
 ## Icon
 
 ```js
-import Code from "@canner/slate-icon-code";
+import Code from "@tracoco/slate-icon-code";
 ```
 
 #### Props
 
-* **type:** Mark type name. Default: `CODE`
+- **type:** Mark type name. Default: `CODE`
 
 ## Plugin
 
 ```js
-import { CodePlugin } from "@canner/slate-icon-code";
+import { CodePlugin } from "@tracoco/slate-icon-code";
 
 // this will add render method for this mark, and also support hot key for bold.
 const plugins = [CodePlugin(options)];
@@ -27,5 +27,5 @@ const plugins = [CodePlugin(options)];
 
 #### Options
 
-* **type:** Mark type name. Default: `CODE`
-* **tagName:** Rendered tagName in this plugin. Default `<code/>`
+- **type:** Mark type name. Default: `CODE`
+- **tagName:** Rendered tagName in this plugin. Default `<code/>`

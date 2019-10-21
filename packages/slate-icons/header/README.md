@@ -1,4 +1,4 @@
-# @canner/slate-icon-header
+# @tracoco/slate-icon-header
 
 [![npm version](https://badge.fury.io/js/%40canner%2Fslate-icon-header.svg)](https://badge.fury.io/js/%40canner%2Fslate-icon-header)
 
@@ -6,11 +6,11 @@
 
 Export components:
 
-* Header1
-* Header2
+- Header1
+- Header2
 
 ```js
-import { Header1, Header2 } from "@canner/slate-icon-header";
+import { Header1, Header2 } from "@tracoco/slate-icon-header";
 ```
 
 ## Plugin
@@ -23,7 +23,7 @@ import {
   HeaderFourPlugin,
   HeaderFivePlugin,
   HeaderSixPlugin
-} from "@canner/slate-icon-header";
+} from "@tracoco/slate-icon-header";
 ```
 
 ### Hot key

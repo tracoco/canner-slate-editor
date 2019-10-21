@@ -1,21 +1,21 @@
-# @canner/slate-icon-strikethrough
+# @tracoco/slate-icon-strikethrough
 
 [![npm version](https://badge.fury.io/js/%40canner%2Fslate-icon-strikethrough.svg)](https://badge.fury.io/js/%40canner%2Fslate-icon-strikethrough)
 
 ## Icon
 
 ```js
-import Strikethrough from "@canner/slate-icon-strikethrough";
+import Strikethrough from "@tracoco/slate-icon-strikethrough";
 ```
 
 #### Props
 
-* **type:** Mark type name. Default: `STRIKETHROUGH`
+- **type:** Mark type name. Default: `STRIKETHROUGH`
 
 ## Plugin
 
 ```js
-import { StrikeThroughPlugin } from "@canner/slate-icon-strikethrough";
+import { StrikeThroughPlugin } from "@tracoco/slate-icon-strikethrough";
 
 // this will add render method for this mark, and also support hot key for strikethrough.
 const plugins = [StrikeThroughPlugin(options)];
@@ -27,5 +27,5 @@ const plugins = [StrikeThroughPlugin(options)];
 
 #### Options
 
-* **type:** Mark type name. Default: `STRIKETHROUGH`
-* **tagName:** Rendered tagName in this plugin. Default `<s/>`
+- **type:** Mark type name. Default: `STRIKETHROUGH`
+- **tagName:** Rendered tagName in this plugin. Default `<s/>`

@@ -1,5 +1,5 @@
 {
-  "name": "@canner/slate-editor-help",
+  "name": "@tracoco/slate-editor-help",
   "version": "1.5.2",
   "description": "Help menu of Canner Editor",
   "homepage": "",
@@ -8,7 +8,9 @@
     "email": "chilijung@gmail.com",
     "url": ""
   },
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "main": "lib/index.js",
   "peerDependencies": {
     "antd": ">=3.4.1",

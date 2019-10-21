@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import pluginListDecorator from "./pluginListDecorator";
-import ToolbarIcon from "@canner/slate-icon-shared";
-import { UL_LIST } from "@canner/slate-constant/lib/blocks";
+import ToolbarIcon from "@tracoco/slate-icon-shared";
+import { UL_LIST } from "@tracoco/slate-constant/lib/blocks";
 
 @pluginListDecorator(UL_LIST, "ListBullet")
 export default class UlList extends Component {

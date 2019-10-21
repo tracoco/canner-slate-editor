@@ -6,22 +6,22 @@ import styled from "styled-components";
 import { Container } from "./components/item";
 import FullScreenIcon from "./components/fullScreen";
 
-import { AlignCenter, AlignLeft, AlignRight } from "@canner/slate-icon-align";
-import Blockquote from "@canner/slate-icon-blockquote";
-import Table from "@canner/slate-icon-table";
-import CodeBlock from "@canner/slate-icon-codeblock";
-import FontBgColor from "@canner/slate-icon-fontbgcolor";
-import FontColor from "@canner/slate-icon-fontcolor";
-import { Header1, Header2, Header3 } from "@canner/slate-icon-header";
-import Hr from "@canner/slate-icon-hr";
-import Image from "@canner/slate-icon-image";
-import { Indent, Outdent } from "@canner/slate-icon-indent";
-import Link from "@canner/slate-icon-link";
-import { OlList, UlList } from "@canner/slate-icon-list";
-import Undo from "@canner/slate-icon-undo";
-import Redo from "@canner/slate-icon-redo";
-import Video from "@canner/slate-icon-video";
-import HelpMenu from "@canner/slate-editor-help";
+import { AlignCenter, AlignLeft, AlignRight } from "@tracoco/slate-icon-align";
+import Blockquote from "@tracoco/slate-icon-blockquote";
+import Table from "@tracoco/slate-icon-table";
+import CodeBlock from "@tracoco/slate-icon-codeblock";
+import FontBgColor from "@tracoco/slate-icon-fontbgcolor";
+import FontColor from "@tracoco/slate-icon-fontcolor";
+import { Header1, Header2, Header3 } from "@tracoco/slate-icon-header";
+import Hr from "@tracoco/slate-icon-hr";
+import Image from "@tracoco/slate-icon-image";
+import { Indent, Outdent } from "@tracoco/slate-icon-indent";
+import Link from "@tracoco/slate-icon-link";
+import { OlList, UlList } from "@tracoco/slate-icon-list";
+import Undo from "@tracoco/slate-icon-undo";
+import Redo from "@tracoco/slate-icon-redo";
+import Video from "@tracoco/slate-icon-video";
+import HelpMenu from "@tracoco/slate-editor-help";
 
 type Props = {
   value: Value,

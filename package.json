@@ -1,15 +1,21 @@
 {
   "name": "canner-slate-editor-pkgs",
   "version": "1000000.0.0",
+  "private": true,
   "description": "Another rich text editor using Slate framework",
   "author": {
     "name": "chilijung",
     "email": "chilijung@gmail.com"
   },
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "main": "lib/index.js",
-  "keywords": ["slate", "editor", "icons"],
-  "private": true,
+  "keywords": [
+    "slate",
+    "editor",
+    "icons"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.0",
@@ -96,12 +102,19 @@
       "^.+\\.(css|scss|less)$": "<rootDir>/__mocks__/styleMock.js"
     },
     "testRegex": "__tests__/.*(test|spec)\\.jsx?$",
-    "testPathIgnorePatterns": ["packages/.*(/lib)"],
+    "testPathIgnorePatterns": [
+      "packages/.*(/lib)"
+    ],
     "testURL": "http://localhost/"
   },
-  "workspaces": ["packages/**"],
+  "workspaces": [
+    "packages/**"
+  ],
   "lint-staged": {
-    "*.{js,json,css,md}": ["prettier --write", "git add"]
+    "*.{js,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "repository": "Canner/canner-slate-editor",
   "license": "MIT",

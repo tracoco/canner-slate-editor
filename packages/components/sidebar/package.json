@@ -1,24 +1,27 @@
 {
-  "name": "slate-sidebar",
+  "name": "@tracoco/slate-sidebar",
   "version": "1.5.0",
-  "description":
-    "Quick and easy way to implement sidebar in your slate editor.",
+  "description": "Quick and easy way to implement sidebar in your slate editor.",
   "homepage": "",
   "author": {
     "name": "chilijung",
     "email": "chilijung@gmail.com",
     "url": ""
   },
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "main": "lib/index.js",
-  "keywords": [""],
+  "keywords": [
+    ""
+  ],
   "repository": "Canner/slate-sidebar",
   "peerDependencies": {
-    "@canner/slate-helper-block-list": "^0.1.12",
-    "@canner/slate-helper-block-quote": "^0.1.12",
-    "@canner/slate-icon-header": "^1.3.0",
-    "@canner/slate-icon-list": "^1.3.0",
-    "@canner/slate-icon-shared": "^1.3.0",
+    "@tracoco/slate-helper-block-list": "^0.1.12",
+    "@tracoco/slate-helper-block-quote": "^0.1.12",
+    "@tracoco/slate-icon-header": "^1.3.0",
+    "@tracoco/slate-icon-list": "^1.3.0",
+    "@tracoco/slate-icon-shared": "^1.3.0",
     "antd": ">=3.4.1",
     "react": "^0.14.0 || ^15.0.0 || 16.x",
     "react-dom": "^0.14.0 || ^15.0.0 || 16.x",

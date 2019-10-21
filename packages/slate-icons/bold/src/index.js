@@ -3,8 +3,8 @@ import React, { Component } from "react";
 import ToolbarIcon, {
   markDecorator,
   markPlugin
-} from "@canner/slate-icon-shared";
-import { BOLD } from "@canner/slate-constant/lib/marks";
+} from "@tracoco/slate-icon-shared";
+import { BOLD } from "@tracoco/slate-constant/lib/marks";
 
 export const BoldPlugin = opt => {
   const options = Object.assign(

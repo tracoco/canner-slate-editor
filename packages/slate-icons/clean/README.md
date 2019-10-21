@@ -1,17 +1,17 @@
-# @canner/slate-icon-clean
+# @tracoco/slate-icon-clean
 
 [![npm version](https://badge.fury.io/js/%40canner%2Fslate-icon-clean.svg)](https://badge.fury.io/js/%40canner%2Fslate-icon-clean)
 
 ## Icon
 
 ```js
-import Clean from "@canner/slate-icon-clean";
+import Clean from "@tracoco/slate-icon-clean";
 ```
 
 ## Plugin
 
 ```js
-import { CleanPlugin } from "@canner/slate-icon-clean";
+import { CleanPlugin } from "@tracoco/slate-icon-clean";
 
 // hot key support
 const plugins = [CleanPlugin()];

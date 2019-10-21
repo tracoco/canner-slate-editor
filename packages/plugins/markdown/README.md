@@ -1,17 +1,17 @@
-# @canner/slate-md-plugin
+# @tracoco/slate-md-plugin
 
 A markdown plugin for slate framework
 
 ## Install
 
 ```
-npm i @canner/slate-md-plugin
+npm i @tracoco/slate-md-plugin
 ```
 
 ## Usage
 
 ```js
-import MarkdownPlugin from '@canner/slate-md-plugin';
+import MarkdownPlugin from '@tracoco/slate-md-plugin';
 const plugins = [
   MarkdownPlugin(options)
 ]
@@ -65,19 +65,19 @@ This will replace default `BOLD` setting to your new setting.
 
 # Feature TOC
 
-* [Blockquote](#blockquote)
-* [Code block (inline)](#code-block-inline)
-* [Code block (triple backticks)](#code-block-triple-backticks)
-* [Header](#header)
-* [Bold](#bold)
-* [Italic](#italic)
-* [Bold + Italic](#bold--italic)
-* [Strikethrough](#strikethrough)
-* [Hr](#hr)
-* [Link](#link)
-* [Image](#image)
-* [Unordered List](#unordered-list)
-* [Ordered List](#ordered-list)
+- [Blockquote](#blockquote)
+- [Code block (inline)](#code-block-inline)
+- [Code block (triple backticks)](#code-block-triple-backticks)
+- [Header](#header)
+- [Bold](#bold)
+- [Italic](#italic)
+- [Bold + Italic](#bold--italic)
+- [Strikethrough](#strikethrough)
+- [Hr](#hr)
+- [Link](#link)
+- [Image](#image)
+- [Unordered List](#unordered-list)
+- [Ordered List](#ordered-list)
 
 ## Support
 

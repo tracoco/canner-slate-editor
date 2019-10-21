@@ -4,14 +4,14 @@
 
 ### Features 😍
 
-* [x] **20+ Editor Features**, support [list](https://github.com/Canner/canner-slate-editor#3-slate-icons)
-* [x] **Markdown Syntax**, support [list](https://canner.github.io/canner-slate-editor/?selectedKind=canner-slate-editor&selectedStory=Hot%20keys%20%26%20Formatting&full=0&addons=1&stories=1&panelRight=0&addonPanel=storybook%2Factions%2Factions-panel)
-* [x] **Hot Keys**, support [list](https://canner.github.io/canner-slate-editor/?selectedKind=canner-slate-editor&selectedStory=Hot%20keys%20%26%20Formatting&full=0&addons=1&stories=1&panelRight=0&addonPanel=storybook%2Factions%2Factions-panel)
-* [x] **Full Screen Edit mode**
-* [x] **[Serialize](https://canner.github.io/canner-slate-editor/?selectedKind=slate-md-editor&selectedStory=With%20HTML%20serializer&full=0&addons=1&stories=1&panelRight=0) and Deserialize into HTML**
-* [x] **Copy and Paste HTML in Editor**
-* [x] Support **Toolbar**
-* [x] Support **Sidebar**
+- [x] **20+ Editor Features**, support [list](https://github.com/Canner/canner-slate-editor#3-slate-icons)
+- [x] **Markdown Syntax**, support [list](https://canner.github.io/canner-slate-editor/?selectedKind=canner-slate-editor&selectedStory=Hot%20keys%20%26%20Formatting&full=0&addons=1&stories=1&panelRight=0&addonPanel=storybook%2Factions%2Factions-panel)
+- [x] **Hot Keys**, support [list](https://canner.github.io/canner-slate-editor/?selectedKind=canner-slate-editor&selectedStory=Hot%20keys%20%26%20Formatting&full=0&addons=1&stories=1&panelRight=0&addonPanel=storybook%2Factions%2Factions-panel)
+- [x] **Full Screen Edit mode**
+- [x] **[Serialize](https://canner.github.io/canner-slate-editor/?selectedKind=slate-md-editor&selectedStory=With%20HTML%20serializer&full=0&addons=1&stories=1&panelRight=0) and Deserialize into HTML**
+- [x] **Copy and Paste HTML in Editor**
+- [x] Support **Toolbar**
+- [x] Support **Sidebar**
 
 👇 **_canner-slate-editor is a modulized editor, everything is a npm module! You could 100% compose to your personal usage!_**
 
@@ -105,8 +105,8 @@ You will also need to install
 $ npm install antd slate slate-react
 ```
 
-* Learn more [canner-slate-editor](./packages/editors/canner-slate-editor)
-* [Demo](https://canner.github.io/canner-slate-editor/?selectedKind=canner-slate-editor)
+- Learn more [canner-slate-editor](./packages/editors/canner-slate-editor)
+- [Demo](https://canner.github.io/canner-slate-editor/?selectedKind=canner-slate-editor)
 
 <img src="./preview/demo.png"/>
 
@@ -126,8 +126,8 @@ You will also need to install
 $ npm install antd slate slate-react
 ```
 
-* Learn more [slate-md-editor](./packages/editors/slate-md-editor)
-* [Demo](https://canner.github.io/canner-slate-editor/?selectedKind=slate-md-editor)
+- Learn more [slate-md-editor](./packages/editors/slate-md-editor)
+- [Demo](https://canner.github.io/canner-slate-editor/?selectedKind=slate-md-editor)
 
 <img src="https://i.imgur.com/OqQMMiC.gif" height="600px" style="border:1px solid #CCC;"/>
 
@@ -137,28 +137,28 @@ $ npm install antd slate slate-react
 
 **_Supported features:_**
 
-* [Align - @canner/slate-icon-align](./packages/slate-icons/align) - center, left, right
-* [Blockquote - @canner/slate-icon-blockquote](./packages/slate-icons/blockquote)
-* [Bold - @canner/slate-icon-bold](./packages/slate-icons/bold)
-* [Clean - @canner/slate-icon-clean](./packages/slate-icons/clean)
-* [Code - @canner/slate-icon-code](./packages/slate-icons/code)
-* [CodeBlock - @canner/slate-icon-codeblock](./packages/slate-icons/codeblock)
-* [Emoji - @canner/slate-icon-emoji](./packages/slate-icons/emoji)
-* [Font background color - @canner/slate-icon-fontbgcolor](./packages/slate-icons/font-bg-color)
-* [Font color - @canner/slate-icon-fontcolor](./packages/slate-icons/font-color)
-* [Hr - @canner/slate-icon-hr](./packages/slate-icons/hr)
-* [Header - @canner/slate-icon-header](./packages/slate-icons/header) - header 1, header 2, header 3, header 4, header 5, header 6
-* [Image - @canner/slate-icon-image](./packages/slate-icons/image)
-* [Indent - @canner/slate-icon-indent](./packages/slate-icons/indent) - indent, outdent
-* [Italic - @canner/slate-icon-italic](./packages/slate-icons/italic)
-* [Link - @canner/slate-icon-link](./packages/slate-icons/link)
-* [List - @canner/slate-icon-list](./packages/slate-icons/list) - Ol list, Ul list
-* [Strike through - @canner/slate-icon-strikethrough](./packages/slate-icons/strikethrough)
-* [Underline - @canner/slate-icon-underline](./packages/slate-icons/underline)
-* [Undo - @canner/slate-icon-undo](./packages/slate-icons/undo)
-* [Redo - @canner/slate-icon-redo](./packages/slate-icons/redo)
-* [Video - @canner/slate-icon-video](./packages/slate-icons/video)
-* [Table - @canner/slate-icon-table](./packages/slate-icons/table)
+- [Align - @tracoco/slate-icon-align](./packages/slate-icons/align) - center, left, right
+- [Blockquote - @tracoco/slate-icon-blockquote](./packages/slate-icons/blockquote)
+- [Bold - @tracoco/slate-icon-bold](./packages/slate-icons/bold)
+- [Clean - @tracoco/slate-icon-clean](./packages/slate-icons/clean)
+- [Code - @tracoco/slate-icon-code](./packages/slate-icons/code)
+- [CodeBlock - @tracoco/slate-icon-codeblock](./packages/slate-icons/codeblock)
+- [Emoji - @tracoco/slate-icon-emoji](./packages/slate-icons/emoji)
+- [Font background color - @tracoco/slate-icon-fontbgcolor](./packages/slate-icons/font-bg-color)
+- [Font color - @tracoco/slate-icon-fontcolor](./packages/slate-icons/font-color)
+- [Hr - @tracoco/slate-icon-hr](./packages/slate-icons/hr)
+- [Header - @tracoco/slate-icon-header](./packages/slate-icons/header) - header 1, header 2, header 3, header 4, header 5, header 6
+- [Image - @tracoco/slate-icon-image](./packages/slate-icons/image)
+- [Indent - @tracoco/slate-icon-indent](./packages/slate-icons/indent) - indent, outdent
+- [Italic - @tracoco/slate-icon-italic](./packages/slate-icons/italic)
+- [Link - @tracoco/slate-icon-link](./packages/slate-icons/link)
+- [List - @tracoco/slate-icon-list](./packages/slate-icons/list) - Ol list, Ul list
+- [Strike through - @tracoco/slate-icon-strikethrough](./packages/slate-icons/strikethrough)
+- [Underline - @tracoco/slate-icon-underline](./packages/slate-icons/underline)
+- [Undo - @tracoco/slate-icon-undo](./packages/slate-icons/undo)
+- [Redo - @tracoco/slate-icon-redo](./packages/slate-icons/redo)
+- [Video - @tracoco/slate-icon-video](./packages/slate-icons/video)
+- [Table - @tracoco/slate-icon-table](./packages/slate-icons/table)
 
 👉 Learn more [slate-icons](./packages/slate-icons)
 
@@ -168,9 +168,9 @@ $ npm install antd slate slate-react
 
 **_Supported selectors:_**
 
-* [Font size - @canner/slate-select-fontsize](./packages/slate-selectors/fontsize)
-* [Line height - @canner/slate-select-lineheight](./packages/slate-selectors/line-height)
-* [Letter spacing - @canner/slate-letterspacing](./packages/slate-selectors/letter-spacing)
+- [Font size - @tracoco/slate-select-fontsize](./packages/slate-selectors/fontsize)
+- [Line height - @tracoco/slate-select-lineheight](./packages/slate-selectors/line-height)
+- [Letter spacing - @tracoco/slate-letterspacing](./packages/slate-selectors/letter-spacing)
 
 👉 Learn more [slate-selectors](./packages/slate-selectors)
 
@@ -184,31 +184,31 @@ $ npm install antd slate slate-react
 $ npm install --save quill-icons
 ```
 
-* Learn more [quill-icons](./packages/quill-icons)
-* [Complete list](https://canner.github.io/canner-slate-editor/?selectedKind=Quill%20icons)
+- Learn more [quill-icons](./packages/quill-icons)
+- [Complete list](https://canner.github.io/canner-slate-editor/?selectedKind=Quill%20icons)
 
 ## 6. slate plugins
 
 > A set of slate plugins.
 
-* [plugins](./packages/plugins)
+- [plugins](./packages/plugins)
 
 ## 7. slate-utils & slate-changes
 
 > A set of changes and utility functions for Slate editors
 
-* [changes](./packages/changes)
-* [utils](./packages/utils)
-* [renderer](./packages/renderer)
+- [changes](./packages/changes)
+- [utils](./packages/utils)
+- [renderer](./packages/renderer)
 
 ## 8. Editor utils components
 
 > A set of editor utility components.
 
-* [sidebar](./packages/components/sidebar)
-  * [Demo](https://canner.github.io/canner-slate-editor/?selectedKind=Editor%20sidebar)
-* [toolbar](./packages/components/toolbar)
-  * [Demo](https://canner.github.io/canner-slate-editor/?selectedKind=Editor%20popup%20toolbar)
+- [sidebar](./packages/components/sidebar)
+  - [Demo](https://canner.github.io/canner-slate-editor/?selectedKind=Editor%20sidebar)
+- [toolbar](./packages/components/toolbar)
+  - [Demo](https://canner.github.io/canner-slate-editor/?selectedKind=Editor%20popup%20toolbar)
 
 ## 9. slate-constant
 

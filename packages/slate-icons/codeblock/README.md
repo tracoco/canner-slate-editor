@@ -1,17 +1,17 @@
-# @canner/slate-icon-codeBlock
+# @tracoco/slate-icon-codeBlock
 
 [![npm version](https://badge.fury.io/js/%40canner%2Fslate-icon-codeBlock.svg)](https://badge.fury.io/js/%40canner%2Fslate-icon-codeBlock)
 
 **Icon:**
 
 ```js
-import CodeBlock from "@canner/slate-icon-codeBlock";
+import CodeBlock from "@tracoco/slate-icon-codeBlock";
 ```
 
 **Plugin:**
 
 ```js
-import { CodeBlockPlugin } from "@canner/slate-icon-codeBlock";
+import { CodeBlockPlugin } from "@tracoco/slate-icon-codeBlock";
 ```
 
 Also you'll need to add these two plugins to make code blocks work:
